@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () =>{
     return (
-        <Router basename="/vite3">
+        <Router basename="/vite4">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}></Route>

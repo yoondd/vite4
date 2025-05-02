@@ -1,4 +1,6 @@
 .section2 {
+  width: 1300px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +17,7 @@
       transform: translateY(0);
     }
 
-    h1 {
+    h3 {
       font-size: 3rem;
       color: #333;
     }
@@ -42,9 +44,9 @@
     }
     .bottom {
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 30px;
+      margin-top: 2rem;
       p {
         font-size: 1.5rem;
         color: #333;
