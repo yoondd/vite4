@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  padding: 1rem 5rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+}
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #FF5523;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
